@@ -11,3 +11,7 @@ multiplicacion=1
 for i in range(len(lista)):
     multiplicacion*=lista[i]
 print(f'n\la multiplicacion de los elementos de la lista es: {multiplicacion}')
+
+
+lista.append(4)
+print(f'n\la longitud actualizada es: {len(lista)}')
